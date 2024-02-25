@@ -11,7 +11,7 @@ const routes = [
   {path: "/home",name: "Home",component: LastArticles},
   {path: "/blog",name: "Blog",component: BlogComponent},
   {path:'/formulario',component:FormularioComponent },
-  {path:'/pagina',component:PaginaComponent },
+  {path:'/pagina/:id?',name:'pagina',component:PaginaComponent },
   {path:'/',component:LastArticles}
 ];
 

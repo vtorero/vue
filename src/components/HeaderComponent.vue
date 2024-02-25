@@ -22,7 +22,7 @@
                             <router-link to="/formulario">Formulario</router-link>
                         </li>
                         <li>
-                            <router-link to="/pagina">Pagina 1</router-link>
+                            <router-link :to="{name:'pagina',params:{id:'parametros desde la pagina'}}">Pagina 1</router-link>
                         </li>
                         <li>
                             <a href="#">Pagina 2</a>
