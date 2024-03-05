@@ -25,7 +25,7 @@
                             <router-link :to="{name:'pagina',params:{id:'parametros desde la pagina'}}">Pagina 1</router-link>
                         </li>
                         <li>
-                            <a href="#">Pagina 2</a>
+                            <router-link to="/peliculas">Peliculas</router-link>
                         </li>
                     </ul>
                 </nav>

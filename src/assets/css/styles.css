@@ -10,6 +10,34 @@ body {
     -moz-osx-font-smoothing: antialiased;
 }
 
+.alert-danger-provisional{
+    color:red;
+    font-weight: bolder;
+}
+.alert-success-provisional{
+    color:rgb(0, 255, 128);
+    font-weight: bolder;
+}
+.alert-purple-provisional{
+    color:purple;
+    font-weight: bolder;
+}
+
+.yeargreeen{
+    background: green !important;
+    color:white !important;
+    padding: 10px !important;
+    width: 111px !important;
+    text-align: center !important;
+}
+.yearred{
+    background: red !important;
+    color:white !important;
+    padding: 10px !important;
+    width: 111px !important;
+    text-align: center !important;
+}
+
 #header {
     height: 120px;
     width: 100%;
